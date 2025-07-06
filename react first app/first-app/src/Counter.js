@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-
+import './Counter.css'; 
 function Counter() {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
+    <div className='Container'>
       <h1>Counter App</h1>
 
       <div>
-        <span>{count}</span>
+        <span className='Count'>{count}</span>
       </div>
 
       <div>

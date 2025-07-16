@@ -18,6 +18,7 @@ function Counter() {
         <button onClick={() => setCount(count - 1)}>-</button>
         <button onClick={() => setCount(0)}>Reset</button>
       </div>
+      <Footer />
     </div>
   );
 }
@@ -25,6 +26,13 @@ function Counter() {
 function Heading(){
   return(
     <h1>Counter App</h1>
+  )
+}
+
+function Footer() {
+  return(
+    
+      <div className='Footer'>Made with ❤️ by Zahid</div>
   )
 }
 

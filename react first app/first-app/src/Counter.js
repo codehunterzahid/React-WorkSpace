@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import './Counter.css'; 
+
+
 function Counter() {
   const [count, setCount] = useState(0);
 
   return (
     <div className='Container'>
-      <h1>Counter App</h1>
+      <Heading />
 
       <div>
         <span className='Count'>{count}</span>
@@ -18,6 +20,12 @@ function Counter() {
       </div>
     </div>
   );
+}
+
+function Heading(){
+  return(
+    <h1>Counter App</h1>
+  )
 }
 
 export default Counter;

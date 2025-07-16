@@ -3,6 +3,7 @@ import './Counter.css';
 
 
 function Counter() {
+  // State to hold the count value
   const [count, setCount] = useState(0);
 
   return (
